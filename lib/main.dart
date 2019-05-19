@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget
 class RandomWordsState extends State<RandomWords>
 {
 
-  inal List<WordPair> _suggestions = <WordPair>[];
+  final List<WordPair> _suggestions = <WordPair>[];
   final TextStyle _biggerFont = const TextStyle(fontSize: 18);
 
   @override
